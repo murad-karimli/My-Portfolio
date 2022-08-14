@@ -68,7 +68,7 @@ function Nav() {
       <div
         className={
           nav
-            ? "text-white transition-all duration-300 z-10 absolute bg-[#0a192f] flex h-full w-full flex-col justify-center items-center"
+            ? "text-white transition-all duration-300 overflow-hidden z-10 fixed bg-[#0a192f] flex h-full w-full flex-col justify-center items-center"
             : "hidden"
         }
       >
