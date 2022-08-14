@@ -24,7 +24,7 @@ function Work() {
               rel="noreferrer"
               target="_blank"
             >
-              <button className="text-[#fffe] p-4 bg-[#4345] rounded-xl mx-auto hover:opacity-50">
+              <button className="text-[#fffe] mr-4  p-4 bg-[#4345] rounded-xl md:mx-auto hover:opacity-50">
                 Code
               </button>
             </a>
@@ -39,7 +39,7 @@ function Work() {
             </a>
           </div>
         </div>
-        <div className=" p-2 py-4 lg:w-[33%] h-[400px] m-4 bg-[#5592] shadow-lg shadow-[#4ff7]  rounded-3xl ">
+        <div className=" p-4 py-4 lg:w-[33%] h-[400px] bg-[#5592] m-8 shadow-lg shadow-[#4ff7]  rounded-3xl">
           <img src={brand} alt="el" className="rounded-xl h-[60%]" />
           <p className="text-[#ffff] text-xl font-semibold text-center py-4">
             {" "}
@@ -51,7 +51,7 @@ function Work() {
               rel="noreferrer"
               target="_blank"
             >
-              <button className="text-[#fffe] p-4 bg-[#4345] rounded-xl mx-auto hover:opacity-50">
+              <button className="text-[#fffe] mr-4  p-4 bg-[#4345] rounded-xl mx-auto hover:opacity-50">
                 Code
               </button>
             </a>
@@ -62,7 +62,7 @@ function Work() {
             </a>
           </div>
         </div>
-        <div className=" p-2 py-4 lg:w-[33%] h-[400px] bg-[#5592] m-8 shadow-lg shadow-[#4ff7]  rounded-3xl ">
+        <div className="p-4 py-4 lg:w-[33%] h-[400px] bg-[#5592] m-8 shadow-lg shadow-[#4ff7]  rounded-3xl">
           <img src={todo} alt="el" className="rounded-xl h-[60%]" />
           <p className="text-[#ffff] text-xl font-semibold text-center py-4">
             {" "}
@@ -74,7 +74,7 @@ function Work() {
               rel="noreferrer"
               target="_blank"
             >
-              <button className="text-[#fffe] p-4 bg-[#4345] rounded-xl mx-auto hover:opacity-50">
+              <button className="text-[#fffe] mr-4  p-4 bg-[#4345] rounded-xl mx-auto hover:opacity-50">
                 Code
               </button>
             </a>
@@ -90,9 +90,8 @@ function Work() {
           </div>
         </div>
       </div>
-
-      <div className="flex lg:flex-row  w-[80%] justify-center  mx-auto flex-col items-center ">
-        <div className=" p-2 py-4 lg:w-[33%] h-[400px] m-4 bg-[#5592] rounded-3xl shadow-lg shadow-[#4ff7] ">
+      <div className="flex lg:flex-row  sm:w-[80%] w-[90%] justify-center  mx-auto flex-col items-center ">
+        <div className="p-4 py-4 lg:w-[33%] h-[400px] bg-[#5592] m-8 shadow-lg shadow-[#4ff7]  rounded-3xl">
           <img src={snapshot} alt="el" className="rounded-xl h-[60%]" />
           <p className="text-[#ffff] text-xl font-semibold text-center py-4">
             {" "}
@@ -104,7 +103,7 @@ function Work() {
               rel="noreferrer"
               target="_blank"
             >
-              <button className="text-[#fffe] p-4 bg-[#4345] rounded-xl mx-auto hover:opacity-50">
+              <button className="text-[#fffe] mr-4  p-4 bg-[#4345] rounded-xl mx-auto hover:opacity-50">
                 Code
               </button>
             </a>
@@ -119,7 +118,7 @@ function Work() {
             </a>
           </div>
         </div>
-        <div className=" p-2 py-4 lg:w-[33%] h-[400px] m-4 bg-[#5592] rounded-3xl shadow-lg shadow-[#4ff7] ">
+        <div className="p-4 py-4 lg:w-[33%] h-[400px] bg-[#5592] m-8 shadow-lg shadow-[#4ff7]  rounded-3xl">
           <img src={blogr} alt="el" className="rounded-xl h-[60%]" />
           <p className="text-[#ffff] text-xl font-semibold text-center py-4">
             {" "}
@@ -131,7 +130,7 @@ function Work() {
               rel="noreferrer"
               target="_blank"
             >
-              <button className="text-[#fffe] p-4 bg-[#4345] rounded-xl mx-auto hover:opacity-50">
+              <button className="text-[#fffe] mr-4  p-4 bg-[#4345] rounded-xl mx-auto hover:opacity-50">
                 Code
               </button>
             </a>
@@ -146,9 +145,9 @@ function Work() {
             </a>
           </div>
         </div>
-        <div className=" p-2 py-4 lg:w-[33%] h-[400px] m-4 bg-[#5592] rounded-3xl shadow-lg shadow-[#4ff7]">
+        <div className=" p-4 py-4 lg:w-[33%] h-[400px] bg-[#5592] m-8 shadow-lg shadow-[#4ff7]  rounded-3xl">
           <img src={coin} alt="el" className="rounded-xl h-[60%]" />
-          <p className="text-[#ffff] text-xl font-semibold text-center py-4">
+          <p className="text-[#ffff] text-xl font-semibold text-center py-4 ">
             {" "}
             Coingecko
           </p>
@@ -159,10 +158,14 @@ function Work() {
               rel="noreferrer"
               target="_blank"
             >
-              <button className="text-[#fffe] p-4 bg-[#4345] rounded-xl  hover:opacity-50">
+             
+             <button className="text-[#fffe] p-4  mr-4 bg-[#4345] rounded-xl  hover:opacity-50">
                 Code
               </button>
             </a>
+            <button disabled={true} className="text-[#fffe] p-4 bg-[#4345] rounded-xl mx-auto hover:opacity-50">
+                Demo
+              </button>
           </div>
         </div>
       </div>

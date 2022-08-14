@@ -7,21 +7,21 @@ function About() {
   return (
     <div
       name="about"
-      className="flex  md:flex-row h-auto flex-col w-[80%] opacity-60 p-8 mx-auto my-32 rounded-2xl bg-[#4348]  lg:h-[500px] bg-center bg-cover"
+      className="flex  md:flex-row h-auto flex-col w-[95%] sm:w-[80%] opacity-60 p-8 mx-auto my-32 rounded-2xl bg-[#4348]  lg:h-[500px] bg-center bg-cover"
     >
-      <div className="w-[50%] flex relative  items-center">
-        <span className="text-3xl mx-4 mb-4 p-2 text-[#fff] font-poppins">
+      <div className="md:w-[50%] flex relative w-[100%]  jusify-center items-center">
+        <span className=" text-2xl sm:text-3xl sm:mx-4 mb-4 sm:p-2 text-[#fff] font-poppins">
           Hi! My name is Murad.
         </span>
-        <span className="text-2xl mx-4 p-2 text-[#fff] font-barlow">
+        <span className="text-xl sm:text-2xl mx-4 p-2 text-[#fff] font-barlow">
           I'm a student at Azerbaijan State Oil and Industy University. I am
           learning web development.And I have knowledge and skills about
-          creating responsive and functional web-sites.{" "}
+          creating responsive and functional web-sites.
         </span>
       </div>
-      <div className=" md:w-[70%] right-0 items-end justify-end flex m-2">
+      <div className=" w-[100%] md:w-[70%] right-0 items-end justify-end flex my-2">
         <LazyLoadImage
-          className="rounded-3xl w-full  h-full shadow-sm right-[29%] shadow-[#ffe]"
+          className="rounded-3xl w-full h-full shadow-sm right-[29%] shadow-[#ffe]"
           effect="blur"
           delayMethod="debounce"
           delayTime={3500}

@@ -8,12 +8,12 @@ function Header() {
   return (
     <>
       <div
-        className="lg:flex-row flex-col  flex font-700 p-8 py-20 "
+        className="lg:flex-row overflow-x-hidden flex-col justify-center items-center  flex font-700 p-2 mx-auto md:mx-2 md:p-8 py-20 "
         name="header"
       >
-        <div className="mx-auto lg:mr-8 relative flex items-center justify-center">
+        <div className="mx-auto  lg:mx-8 relative flex w-[90%] md:w-[30%] items-center justify-center">
           <LazyLoadImage
-            className="rounded-3xl h-96 m-8 shadow-md opacity-50  shadow-[#ffe]"
+            className="rounded-3xl h-96 mb-8 shadow-md opacity-50  shadow-[#ffe]"
             effect="blur"
             delayMethod="debounce"
             delayTime={3500}
@@ -24,8 +24,8 @@ function Header() {
           />
         </div>
 
-        <div className="  text-white text-xl flex h-[400px] flex-col p-16 w-[70%] md:w-[50%] rounded-2xl shadow-[#ffee] my-auto shadow-md mx-auto bg-[#4242] ">
-          <h1 className="mb-[7%] text-white font-semibold text-3xl animate-[wiggle_3s_ease-in-out_infinite] font-mono inline">
+        <div className="  text-white text-xl flex h-[400px] flex-col p-8 md:p-16 w-[90%]  md:w-[50%] rounded-2xl shadow-[#ffee] my-auto shadow-md md:mx-2 mx-auto bg-[#4242] ">
+          <h1 className="mb-[7%] text-white font-semibold text-2xl md:text-3xl animate-[wiggle_3s_ease-in-out_infinite] w-[70%] font-mono inline">
             <span className="text-[#ffd000] font-poppins">
               console.log("
               <p className="text-[#00ff80] inline font-poppins">

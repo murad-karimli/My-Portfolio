@@ -7,7 +7,10 @@ import { SiMongodb } from "react-icons/si";
 import { IoLogoNodejs } from "react-icons/io";
 import { BsGithub } from "react-icons/bs";
 import { SiTailwindcss } from "react-icons/si";
-
+import { SiExpress } from "react-icons/si";
+import { FaSass } from "react-icons/fa";
+import { SiTypescript } from "react-icons/si";
+import { FaBootstrap } from "react-icons/fa";
 
 function Tech() {
   return (
@@ -15,10 +18,10 @@ function Tech() {
       name="tech"
       className="flex flex-col justify-center items-center font-mono w-full py-24 "
     >
-      <h1 className="text-4xl text-[#fff] font-bold p-8 font-poppins">
+      <h1 className="text-4xl text-[#fff] text-center font-bold p-8 font-poppins">
         I am working with:
       </h1>
-      <div className="lg:flex mb-4 justify-between w-[40%] lg:w-[60%]">
+      <div className="lg:flex mb-4 justify-between w-[60%] lg:w-[60%]">
         <a
           href="https://developer.mozilla.org/en-US/docs/Glossary/HTML5"
           rel="noreferrer"
@@ -64,7 +67,7 @@ function Tech() {
           </div>
         </a>
       </div>
-      <div className="lg:flex mb-4 justify-between w-[40%] lg:w-[60%]">
+      <div className="lg:flex mb-4 justify-between w-[60%] lg:w-[60%]">
         <a
           href="https://www.mongodb.com/docs/"
           rel="noreferrer"
@@ -99,6 +102,46 @@ function Tech() {
             <SiTailwindcss size={100} className="fill-[#09abff]" />
             <h1 className="text-xl text-[#ffff]  text-center font-semibold font-mono">
               TailwindCss
+            </h1>
+          </div>
+        </a>
+      </div>
+
+      <div className="lg:flex mb-4 justify-between w-[60%] lg:w-[60%]">
+        <a
+          href="https://expressjs.com/"
+          rel="noreferrer"
+          target="_blank"
+        >
+          <div className="shadow-lg p-8  shadow-[#ffde] rounded-xl bg-[#0a192b] mb-4 animate-[rewiggle_3s_ease-in-out_infinite]  hover:scale-110 transition-all duration-500">
+            <SiExpress size={100} className="fill-[#ffde]" />
+            <h1 className="text-xl text-[#ffff] text-center p- font-semibold font-mono">
+              Express.js
+            </h1>
+          </div>
+        </a>
+        <a href="https://www.typescriptlang.org/" rel="noreferrer" target="_blank">
+          <div className="shadow-lg shadow-[#45fe] p-8 rounded-xl bg-[#0a192b] mb-4 animate-[rewiggle_3s_ease-in-out_infinite]  hover:scale-110 transition-all duration-500">
+            <SiTypescript size={100} className="fill-[#25ff]"/>
+            <h1 className="text-xl text-[#ffff]  text-center font-semibold font-mono">
+             TypeScript
+            </h1>
+          </div>
+        </a>
+        <a href="https://sass-lang.com/documentation/" rel="noreferrer" target="_blank">
+          <div className="shadow-lg shadow-[#c317b7] p-8 rounded-xl bg-[#0a192b] mb-4 animate-[wiggle_3s_ease-in-out_infinite] hover:scale-110 transition-all duration-500">
+            <FaSass size={100} className="fill-[#c317b7]" />
+            <h1 className="text-xl text-[#ffff] text-center font-semibold font-mono">
+              Sass
+            </h1>
+          </div>
+        </a>
+
+        <a href="https://getbootstrap.com/" rel="noreferrer" target="_blank">
+          <div className="shadow-lg shadow-[#a027f0] p-8 rounded-xl bg-[#0a192b] first-letter:mb-4 animate-[wiggle_3s_ease-in-out_infinite]  hover:scale-110 transition-all duration-500">
+            <FaBootstrap size={100} className="fill-[#a020f0]" />
+            <h1 className="text-xl text-[#ffff]  text-center font-semibold font-mono">
+              BootStrap
             </h1>
           </div>
         </a>

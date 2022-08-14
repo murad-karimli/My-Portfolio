@@ -73,8 +73,8 @@ function Nav() {
         }
       >
         <AiOutlineClose
-          size={30}
-          className="absolute top-[2%] right font-poppins-[5%]"
+          size={20}
+          className="absolute  top-[2%] m-4 right-[5%] font-poppins"
           onClick={navHandler}
         />
         <Link
@@ -82,7 +82,7 @@ function Nav() {
           to="header"
           smooth={true}
           duration={900}
-          className="hover:text-gray-900 hover:opacity-70  py-8 text-3xl font-poppins"
+          className="hover:text-gray-900 hover:opacity-70   py-8 text-xl font-poppins"
         >
           Home
         </Link>
@@ -91,7 +91,7 @@ function Nav() {
           to="about"
           smooth={true}
           duration={900}
-          className=" m-8 hover:text-gray-900 hover:opacity-70 py-8 text-3xl font-poppins"
+          className=" m-8 hover:text-gray-900 hover:opacity-70 py-8 text-xl font-poppins"
         >
           About me
         </Link>
@@ -100,7 +100,7 @@ function Nav() {
           to="tech"
           smooth={true}
           duration={900}
-          className=" hover:text-gray-900 hover:opacity-70 py-8 text-3xl font-poppins"
+          className=" hover:text-gray-900 hover:opacity-70 py-8 text-xl font-poppins"
         >
           Experience
         </Link>
@@ -109,16 +109,24 @@ function Nav() {
           to="work"
           smooth={true}
           duration={900}
-          className="hover:text-gray-900 hover:opacity-70 py-8 text-3xl font-poppins"
+          className="hover:text-gray-900 hover:opacity-70 py-8 text-xl font-poppins"
         >
           Work
+        </Link>
+        <Link
+          to="resume"
+          smooth={true}
+          duration={900}
+          className="hover:text-gray-900 hover:opacity-70 py-8 text-xl font-poppins"
+        >
+          Resume
         </Link>
         <Link
           onClick={navHandler}
           to="contact"
           smooth={true}
           duration={900}
-          className=" m-8 hover:text-gray-900 hover:opacity-70 py-8 text-3xl font-poppins"
+          className=" m-8 hover:text-gray-900 hover:opacity-70 py-8 text-xl font-poppins"
         >
           Contact
         </Link>
