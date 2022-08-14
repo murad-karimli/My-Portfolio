@@ -47,6 +47,14 @@ function Nav() {
           Work
         </Link>
         <Link
+          to="resume"
+          smooth={true}
+          duration={900}
+          className="hover:text-gray-900 hover:opacity-70  hover:border-y-2 py-4 mx-8 text-xl font-poppins"
+        >
+          Resume
+        </Link>
+        <Link
           to="contact"
           smooth={true}
           duration={900}
